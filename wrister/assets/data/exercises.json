@@ -1,0 +1,72 @@
+{
+  "exercises": [
+    {
+      "title": "Example",
+      "description": "This is a sample description for an exercise.",
+      "instructions": [
+        "Exercise your hands",
+        "???",
+        "Profit"
+      ],
+      "video_url": "https://youtu.be/dQw4w9WgXcQ"
+    },
+    {
+      "title": "Clenched wrist bend",
+      "description": "- You should do this exercise while sitting or standing.  \n- Bending your wrist forward and back is one repetition.",
+      "instructions": [
+        "With the side of your hand rested on a table, and your hand loosely clenched, bend your wrist and fingers towards you.",
+        "Hold for 2 seconds then bend your clenched hand away from your body. Hold for 2 seconds before returning to the starting position."
+      ],
+      "video_url": "https://youtu.be/s_IQkbrmoDQ"
+    },
+    {
+      "title": "Palm up / palm down",
+      "description": "- You should do this exercise while sitting or standing.\n- Bending your wrist from left to right is one repetition.",
+      "instructions": [
+        "Rest the back of your hand on a table.",
+        "Gradually lift your hand so that your thumb points to the ceiling.",
+        "Place your hand face down on the table.",
+        "Slowly return your hand to the starting position."
+      ],
+      "video_url": "https://youtu.be/MO9gHpIR0Xs"
+    },
+    {
+      "title": "Finger curls",
+      "description": "- You should do this exercise while sitting or standing. You may find it easier if you support your elbow on a table.\n- Uncurling and curling your fingers is one repetition.",
+      "instructions": [
+        "With your hand facing away from you, gradually curl your fingers inwards. Start at the top joints of your fingers, then the middle ones and then finally curl in the knuckles. Hold for a few seconds.",
+        "Slowly straighten out the fingers. Start at the knuckles, then the middle joints followed by the top joints of your fingers."
+      ],
+      "video_url": "https://youtu.be/JgeOYhPJX94"
+    },
+    {
+      "title": "Finger and thumb touch",
+      "description": "- You should do this exercise while sitting or standing. You may find it easier if you support your elbow on a table.\n- One touch back and forth is one repetition.",
+      "instructions": [
+        "Place your palm out in front of you with your fingers stretched out.",
+        "Touch your thumb to the top of your little finger and then stretch your hand out again."
+      ],
+      "video_url": "https://youtu.be/6R4P0hv375g"
+    },
+    {
+      "title": "Flexed hand clench",
+      "description": "- You should do this exercise while sitting or standing. You may find it easier if you support your elbow on a table.\n- Uncurling and curling your fingers is one repetition.",
+      "instructions": [
+        "Place your hand out in front with your fingers straight.",
+        "Bring your fingers into a fist shape.",
+        "Tilt your wrist so that it faces towards your body. Only do this as far as is comfortable."
+      ],
+      "video_url": "https://youtu.be/sp2T9mMpMMQ"
+    },
+    {
+      "title": "Thumb stretch",
+      "description": "- You should do this exercise while sitting or standing. You may find it easier if you support your elbow on a table.\n- One set back and forth is one repetition.",
+      "instructions": [
+        "Place your arm out in front with your fingers straight and your thumb pointing towards the ceiling.",
+        "Bring your thumb down to touch the bottom of your pinkie finger.",
+        "Return to the starting position with your finger stretched out and your thumb pointing towards the ceiling."
+      ],
+      "video_url": "https://youtu.be/dacS0u7DPJg"
+    }
+  ]
+}
