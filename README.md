@@ -1,5 +1,6 @@
 # Wrister
 A Discord bot reminding you to exercise your wrists every day.  
+![demonstration](.github/img/demo.png)
 
 ## About
 This is a Discord bot which sends a randomized set of hand, finger and wrist exercises at specific times throughout
