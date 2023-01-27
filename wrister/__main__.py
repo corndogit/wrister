@@ -21,22 +21,17 @@ async def on_ready():
     print(f"{wrister.user} is now online!")
 
 
-@wrister.slash_command(description="Responds with 'Hello there!'")
-async def hello(inter):
-    await inter.response.send_message("Hello there!")
-
-
 @wrister.slash_command(description="Show information about Wrister")
 async def about(inter):
     embed = disnake.Embed(
         title="About",
         url="https://github.com/corndogit",
-        description="A bot reminding you to exercise your wrists."
+        description="A bot reminding you to exercise your wrists. Made by corndog#2974."
     )
     embed.set_thumbnail(url=wrister.user.display_avatar)
     embed.add_field(name="Prefix", value="/")
     embed.add_field(name="Commands",
-                    value="`hello`, `about`, `howto <exercise>`",
+                    value="`about`, `how_to <exercise>`, `set_of_exercises <number>`",
                     inline=False
                     )
     await inter.response.send_message(embed=embed)
@@ -85,7 +80,7 @@ async def set_of_exercises(inter, number_of_exercises: str = "3"):
     embed.set_author(name="Wrister", icon_url=wrister.user.display_avatar)
     for index in exercise_indexes[0:int(number_of_exercises)]:
         embed.add_field(name=f"Exercise #{index} - {exercises[index]['title']}", value="", inline=False)
-    embed.set_footer(text=f"Type `/how_to <exercise #>` for more info about an exercise!")
+    embed.set_footer(text=f"Type /how_to <exercise #> for more info about an exercise!")
     await inter.response.send_message(embed=embed)
 
 
