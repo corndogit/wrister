@@ -12,7 +12,7 @@ wrister = commands.Bot(
     command_prefix=disnake.ext.commands.when_mentioned,
     command_sync_flags=commands.CommandSyncFlags.default()
 )
-with open("wrister/assets/data/exercises.json") as file:
+with open("./assets/data/exercises.json") as file:
     exercises = json.loads(file.read())["exercises"]
 
 
